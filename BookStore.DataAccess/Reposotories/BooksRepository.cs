@@ -12,7 +12,7 @@ namespace BookStore.DataAccess.Reposotories
             _context = context;
         }
 
-        public async Task<List<Book>> GetBooks()
+        public async Task<List<Book>> Get()
         {
             var bookEntities = await _context.Books
                 .AsNoTracking()
