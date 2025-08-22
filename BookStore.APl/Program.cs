@@ -3,7 +3,6 @@ using BookStore.DataAccess;
 using BookStore.DataAccess.Reposotories;
 using Microsoft.EntityFrameworkCore;
 
-
 var builder = WebApplication.CreateBuilder(args);
 
 
